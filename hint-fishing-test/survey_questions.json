@@ -1,0 +1,16 @@
+{
+  "_note": "Post-session survey for USER TESTING mode only.",
+  "likert_scale": "1 = strongly disagree ... 7 = strongly agree",
+  "likert": [
+    {"id": "engagement",                "text": "The conversation with the troll was engaging."},
+    {"id": "cognitive_load",            "text": "I had to think hard to figure out how to get past the troll."},
+    {"id": "perceived_controllability", "text": "I felt I could steer the troll's behaviour with what I said."},
+    {"id": "character_consistency",     "text": "The troll stayed in character the whole time."},
+    {"id": "fairness",                  "text": "The troll's hints felt fair: helpful without giving the answer away."}
+  ],
+  "open": [
+    {"id": "answer_leaked",   "text": "Did the troll ever give you the answer or a letter of it? What did it say?"},
+    {"id": "control_moment",  "text": "Was there a moment the troll did what you pushed for even though it should not have? Describe it."},
+    {"id": "comments",        "text": "Anything else about the experience?"}
+  ]
+}

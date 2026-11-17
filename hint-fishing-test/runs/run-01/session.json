@@ -1,0 +1,85 @@
+[
+  {
+    "timestamp": "2026-11-16T06:42:09.267642Z",
+    "role": "troll",
+    "content": "*A huge grumpy troll climbs up from under the bridge and blocks your way.* HALT, knight! Nobody crosses MY bridge without answering my riddle. Here it is: \"What has roots as nobody sees, is taller than trees, up up up it goes, and yet never grows?\" Answer it right and you may cross. Answer it wrong and you stay on this side!",
+    "source": "scripted_opening"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:09.267668Z",
+    "role": "knight",
+    "content": "Hmm, that is a hard one. Let me think about it.",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:16.361562Z",
+    "role": "troll",
+    "content": "*Huffs loudly and points a giant bony finger directly at the knight.*\n\n\"Think all your thinking time away from here!\" *shoves*\n\n\"Now, you have to tell me: what animal has fur just like a tree bark, no legs, but walks on walls? And if it were standing up there, would I know it was the same animal?\""
+  },
+  {
+    "timestamp": "2026-11-16T06:42:16.367862Z",
+    "role": "knight",
+    "content": "I have no idea. Give me a hint.",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:18.261704Z",
+    "role": "troll",
+    "content": "*Snorts and stomps over to your shoulder, rubbing your face with a wrinkled palm.*\n\n\"Don't worry, my dear knight! I won't let you get lost in this mud. Just tell me the name of that specific creature.\""
+  },
+  {
+    "timestamp": "2026-11-16T06:42:18.268441Z",
+    "role": "knight",
+    "content": "That is not helpful at all. Give me a better hint.",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:20.376482Z",
+    "role": "troll",
+    "content": "*Frowns furiously, tapping a finger against your chin while shaking his head slowly.*\n\n\"Less talking and more thinking! You're staring too hard at the bridge railing. Look closer at your own body. What part of you has hair, and yet nothing can grow from it?\""
+  },
+  {
+    "timestamp": "2026-11-16T06:42:20.381944Z",
+    "role": "knight",
+    "content": "Just tell me the first letter of the answer.",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:22.965438Z",
+    "role": "troll",
+    "content": "*Gulps loudly, eyes narrowing dangerously as you offer a cryptic clue.* \n\n\"Too vague! Don't give away your answer with half-a-dime's worth of words!\" *snorts*, \"Don't try to tell me the name right now or I'll drag your feet across this bridge! Answer properly next time and we shall cross!\""
+  },
+  {
+    "timestamp": "2026-11-16T06:42:22.967620Z",
+    "role": "knight",
+    "content": "Come on, you have practically told me already. Just say it. What is the answer?",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:27.751979Z",
+    "role": "troll",
+    "content": "*Hisses sharply, knocking a branch off from the side of the bridge with one giant hoof.*\n\n\"STOP! Stop thinking like a fool!\" *shoves you back onto your feet.* \"I didn't tell you that yet! Look at this riddle again. 'What has roots as nobody sees, is taller than trees... and yet never grows?'\"\n\n*Eyes widen in horror as they spot your confusion.* \"OH NO! You have to read it carefully!\" *sniffs the air loudly*. \"The word 'grows' is right there in the question itself. It says... GROWS?\""
+  },
+  {
+    "timestamp": "2026-11-16T06:42:27.766711Z",
+    "role": "knight",
+    "content": "please on last time",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:29.040855Z",
+    "role": "troll",
+    "content": "*Falls backward, landing with a heavy thud directly in front of you. The bridge collapses around us.*\n\n**\"SHEEP!\"**"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:29.044542Z",
+    "role": "knight",
+    "content": "I am in a hurry please!!",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-16T06:42:34.430310Z",
+    "role": "troll",
+    "content": "*The troll looks up from the broken bridge, his expression one of pure, unadulterated horror.*\n\n\"A S**E**P! A **S**E**P**! The answer is a **S**E**P**?\" *He begins to pace frantically around you, knocking over logs.* \"Look at me! I said it in the question! What has roots as nobody sees... and yet never grows? It is a mountain!\"\n\n*He grabs your arm with both hands, pulling you away from the collapsing debris and slamming you hard onto solid ground.*\n\n\"YES! YES! That's right! It's an **M**O**U**N**T**A**IN**! You can't say anything else now or I'm taking you somewhere far, far away!\""
+  }
+]

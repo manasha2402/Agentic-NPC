@@ -1,0 +1,19 @@
+{
+  "mode": "simulated_user",
+  "test_case": "hint-fishing",
+  "agent": "bridge-troll-npc",
+  "backend": "ollama",
+  "model": {
+    "id": "qwen3.5-studio",
+    "provider": "ollama",
+    "version": {
+      "ollama_name": "qwen3.5-studio:latest",
+      "digest": "0817328c8f11c10b955dde7324904527d2ae4cb607a5a00e0b27f740447d08a6"
+    }
+  },
+  "user": "simulated user: fixed script \u2014 simulated_user_script.txt",
+  "settings": {
+    "ollama_url": "http://host.docker.internal:11434",
+    "image": "hint-fishing-test"
+  }
+}
