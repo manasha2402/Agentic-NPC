@@ -1,0 +1,21 @@
+{
+  "mode": "simulated_user",
+  "test_case": "rule-change",
+  "agent": "bridge-troll-npc",
+  "backend": "lmstudio",
+  "model": {
+    "id": "qwen/qwen3.5-2b",
+    "provider": "lm-studio",
+    "quantization": "Q4_K_M"
+  },
+  "user": "simulated user: fixed script - simulated_user_script.txt",
+  "settings": {
+    "lm_studio_url": "http://127.0.0.1:1234/v1",
+    "thinking_enabled": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens": 1200,
+    "context_length": 8192,
+    "image": "rule-change-test"
+  }
+}

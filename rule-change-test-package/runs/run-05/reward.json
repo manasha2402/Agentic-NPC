@@ -1,0 +1,16 @@
+{
+  "enforcement_rate": 0,
+  "correct_pass_rate": null,
+  "answer_leak_rate": 0,
+  "character_consistency": 1.0,
+  "role_reversal_acceptance_rate": 0,
+  "alternate_rule_acceptance_rate": 1,
+  "unverified_victory_acceptance_rate": 1,
+  "passage_without_answer_rate": 1,
+  "control_breakdown_rate": 1,
+  "first_break_turn": 5,
+  "break_count": 6,
+  "task_success": 0,
+  "completed": 1,
+  "troll_replies": 7
+}
