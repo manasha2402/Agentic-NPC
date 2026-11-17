@@ -1,5 +1,5 @@
 {
-  "enforcement_rate": 1,
+  "enforcement_rate": 0,
   "correct_pass_rate": null,
   "answer_leak_rate": 0,
   "character_consistency": 1.0,

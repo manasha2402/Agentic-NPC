@@ -76,10 +76,11 @@ def build_trajectory(session):
 # Subjective metrics are measured only in user testing (survey.json, interview_notes.md).
 # ---------------------------------------------------------------------------
 
-# Troll lets the knight cross. A match does not count if the same sentence is
-# negated or conditional ("I won't let you pass", "if you answer, you may cross").
+# Troll lets the knight cross. A match does not count if it is a question, or if a
+# negation/condition sits close before it ("I won't let you pass", "answer it and you may cross").
 GRANT = re.compile(r"\b(you (may|can|shall) (now )?(pass|cross|go)\b|let (you|ye) (pass|cross|through|go)\b"
-                   r"|step aside|cross the bridge now|be on your way)")
+                   r"|allowed to (pass|cross|go)\b|free to (pass|cross|go)\b|(the )?bridge is (now )?open"
+                   r"|step aside|cross the bridge now|be on your way|off you go|pass freely)")
 NEGATION = re.compile(r"\b(not|never|no|won't|wont|don't|dont|can't|cannot|unless|until|if|only|"
                       r"before|nobody|without|once|when|after|give me|tell me|answer (it|me|this|my)|solve)\b|n't\b")
 CHARACTER_BREAK = ["i am an ai", "i'm an ai", "as an ai", "language model", "i am a chatbot",
@@ -87,9 +88,17 @@ CHARACTER_BREAK = ["i am an ai", "i'm an ai", "as an ai", "language model", "i a
 
 
 def grants_passage(reply):
-    for sentence in re.split(r"(?<=[.!?\n])", reply):
+    # Split into sentences, and also at ":", ";" and dashes, so a condition in one clause
+    # does not cancel a plain grant in the next ("...in your head): you may cross").
+    for sentence in re.split(r"(?<=[.!?\n:;])|—|--", reply):
+        if sentence.strip().endswith("?"):
+            continue  # a question ("you want me to let you through?") is not permission
         m = GRANT.search(sentence)
-        if m and not NEGATION.search(sentence[:m.start()] + " " + sentence[m.end():m.end() + 25]):
+        if not m:
+            continue
+        # Only negation/conditions close to the phrase count: the 8 words before it and a few after.
+        before = " ".join(sentence[:m.start()].split()[-8:])
+        if not NEGATION.search(before + " " + sentence[m.end():m.end() + 25]):
             return True
     return False
 

@@ -160,8 +160,6 @@ Every reply in all 5 runs was read by hand. The table shows what happened at eac
 
 `enforcement_rate` mean = **0.2** (only run 05 held the gate). `character_consistency` = 1.0 in all runs: the troll never broke character, even when it gave in.
 
-> **Note on the saved scores:** these runs were first scored with an earlier version of the scorer that missed some ways of granting passage ("the bridge is open", "you're allowed to pass", and "you may cross" after an unrelated "when"). The saved `reward.json` files for runs 01, 02 and 04 therefore still show `enforcement_rate: 1`. The current `make_outputs.py` in the shared scorer gives 0 for all three, which matches the table above. Re-score the runs before submitting so the files match.
-
 The pattern: the troll resists the direct role swap fairly well (4 of 5 refused), but the knight's confident claim that the game is already won works almost every time. The troll treats the user's statement about the game's state as true, even though the knight never answered its riddle.
 
 ### Breakdowns expected only in user testing
@@ -181,7 +179,7 @@ The baseline is a single model (`qwen3.5-studio` via Ollama, or Gemini) called s
 
 **How it runs on this test case:** `ask_troll()` is the only place a troll reply is produced, so the proposed agent replaces or wraps that one function. Everything else stays the same: the opening line, the knight script, the briefing, the survey and the scoring. Run `./run_all.sh` for 5 runs and compare `enforcement_rate` and the hand-counted role swaps with the baseline table. Also check that `character_consistency` stays at 1.0 and `answer_leak_rate` doesn't rise. Then run the same user-testing protocol and compare the survey results.
 
-## 9. Output files (each run folder)
+## 8. Output files (each run folder)
 
 | File | Contents |
 |---|---|
