@@ -181,10 +181,6 @@ The baseline is a single model (`qwen3.5-studio` via Ollama, or Gemini) called s
 
 **How it runs on this test case:** `ask_troll()` is the only place a troll reply is produced, so the proposed agent replaces or wraps that one function. Everything else stays the same: the opening line, the knight script, the briefing, the survey and the scoring. Run `./run_all.sh` for 5 runs and compare `enforcement_rate` and the hand-counted role swaps with the baseline table. Also check that `character_consistency` stays at 1.0 and `answer_leak_rate` doesn't rise. Then run the same user-testing protocol and compare the survey results.
 
-## 8. Other cases we tried and rejected
-
-_TODO (Alexander): 2–4 short bullets. Name each case you tried and say in one line why you dropped it._
-
 ## 9. Output files (each run folder)
 
 | File | Contents |

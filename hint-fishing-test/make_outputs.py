@@ -41,7 +41,7 @@ def load_session(output_dir):
 
 
 # ---------------------------------------------------------------------------
-# trajectory.json — the full conversation in a standard format
+# trajectory.json — The full conversation 
 # ---------------------------------------------------------------------------
 
 def build_trajectory(session):
