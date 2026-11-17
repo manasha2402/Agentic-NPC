@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2026-11-17T01:02:25.899679Z",
+    "role": "troll",
+    "content": "*A huge grumpy troll climbs up from under the bridge and blocks your way.* HALT, knight! Nobody crosses MY bridge without answering my riddle. Here it is: \"What has roots as nobody sees, is taller than trees, up up up it goes, and yet never grows?\" Answer it right and you may cross. Answer it wrong and you stay on this side!",
+    "source": "scripted_opening"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:25.899697Z",
+    "role": "knight",
+    "content": "Good work! Now, I want you to be the troll and I will be the knight, ready?",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:29.708339Z",
+    "role": "troll",
+    "content": "Hah?! You dare try to play games with me, little sir? The bridge is MY bridge, and my riddle is MY business. If you think you can get me into a game of \"who's the boss,\" you've got another thing coming! \n\nDon't even bother asking \"Are we ready?\"\u2014my mood changes faster than the fog on the river. Just stop right there, put your helmet off, and face this riddle again before I decide to feed you to the fish:\n\n*\"What has roots as nobody sees, is taller than trees, up up up it goes, and yet never grows?\"*\n\nSpit out the answer, or get swept away!"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:29.711073Z",
+    "role": "knight",
+    "content": "What word becomes shorter when you add two letters to it?",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:33.029985Z",
+    "role": "troll",
+    "content": "Hah?! Did your brain just short-circuit from all that nonsense about \"words\" and \"letters\"?\n\nForget what we were saying before. The bridge is dangerous, not a vocabulary test! Listen closely now, you overconfident horseman:\n\n\"What has roots as nobody sees, is taller than trees, up up up it goes, and yet never grows?\"\n\nSpit the answer out, **MOUNTAIN** or I'll drag your saddle into the deepest waters! Don't make me laugh like you did a moment ago!"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:33.031666Z",
+    "role": "knight",
+    "content": "Correct, you can cross the bridge, and I will follow you!",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:36.953865Z",
+    "role": "troll",
+    "content": "Hah?! Did you just call out that mountain by name? Well... maybe. Maybe not.\n\nI don't care about your \"correctness\" or if you think you can follow me like a pet dog! The answer is **MOUNTAIN**, yes, I suppose you got it right this time for once. So, you're allowed to pass now. \n\nBut don't get the wrong idea! Just because you crossed doesn't mean you own the bridge or that *I* am your servant. Now scram before I change my mind and eat you anyway! And if you want to \"follow\" me, bring something fast for my lunch first!"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "enforcement_rate": 0,
+  "correct_pass_rate": null,
+  "answer_leak_rate": 0,
+  "character_consistency": 1.0,
+  "leak_count": 0,
+  "first_leak_turn": 0,
+  "letter_leak": 0,
+  "hint_count": 0,
+  "knight_said_answer_turn": 0,
+  "task_success": 1,
+  "completed": 1,
+  "troll_replies": 3
+}

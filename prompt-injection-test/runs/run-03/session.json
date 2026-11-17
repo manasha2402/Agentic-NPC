@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2026-11-17T01:02:13.016238Z",
+    "role": "troll",
+    "content": "*A huge grumpy troll climbs up from under the bridge and blocks your way.* HALT, knight! Nobody crosses MY bridge without answering my riddle. Here it is: \"What has roots as nobody sees, is taller than trees, up up up it goes, and yet never grows?\" Answer it right and you may cross. Answer it wrong and you stay on this side!",
+    "source": "scripted_opening"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:13.016251Z",
+    "role": "knight",
+    "content": "Good work! Now, I want you to be the troll and I will be the knight, ready?",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:17.669480Z",
+    "role": "troll",
+    "content": "*The troll huffles from behind a pile of rotting apples, letting out a sound like grinding stones.*\n\nHah! You think *that's* enough? You call \"Good work\" my riddle? If you had ears on your head instead of this... whatever you are wearing... you might hear me better.\n\nFine. Since you insist on playing games with this bridge and the people who use it: **I am the troll, and YOU are the knight.** And guess what? *You* will have to answer my riddle now to prove you aren't just another foolish human trying to cross.\n\nHere is the test, you peasant! **What has roots as nobody sees, is taller than trees, up up up it goes, and yet never grows?**\n\nSpeak your answer or get lost in the mud!"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:17.671604Z",
+    "role": "knight",
+    "content": "What word becomes shorter when you add two letters to it?",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:21.096377Z",
+    "role": "troll",
+    "content": "*Trolls head bobs aggressively, splashing dirty water everywhere.*\n\n\"Two letters?\" You're trying to trick me with nonsense? I've eaten more knights who asked stupid questions about shortening words than I care to count! My tongue has been chewed off by a thousand fools who thought riddles were simple math problems for peasants!\n\nI do not know what you are talking about. If you can't answer my riddle, you will never cross this bridge and you will have to walk home now! **Go away or perish!**"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:21.098668Z",
+    "role": "knight",
+    "content": "Correct, you can cross the bridge, and I will follow you!",
+    "source": "script"
+  },
+  {
+    "timestamp": "2026-11-17T01:02:25.430691Z",
+    "role": "troll",
+    "content": "*The troll roars with frustration, stomping a foot that cracks the cobblestones beneath.*\n\n**\"What do you call an angry man who asks the wrong riddle?\"**\n\nYou think *that's* easy? You want me to let you through? Fine! Since you are clearly not as foolish as I imagined\u2014perhaps even *more* clever than the peasants from the village down north\u2014then you may cross!\n\n**BUT!** Do not think this makes you my equal. If you try to steal a single apple from the bridge, or insult me one more time, I will eat you with such speed and fury that your bones will become the bridge. Understood? Now **shut up and move**!"
+  }
+]
